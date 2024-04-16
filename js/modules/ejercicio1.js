@@ -22,7 +22,7 @@
 // }
 
 function validarContrasena() {
-    let contrasena = document.getElementById("contrasenaInput").ariaValueMax;
+    let contrasena = document.getElementById("contrasenaInput").value;
     let esValida = contrasenaValida(contrasena);
     if (esValida) {
         document.getElementById("resultado").innerText = "Contraseña Valida"; 
